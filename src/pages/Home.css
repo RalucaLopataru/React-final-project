@@ -1,0 +1,54 @@
+.container{
+    
+    width: 400px;
+    max-width: 90%;
+    
+}
+
+.user-add-form {
+                       
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0  1px 0 1px rgba(0,0,0,.2);
+}
+
+.user-add-form h3 {
+    text-align: center;
+    margin-bottom: 24px;
+    color:#125478; 
+}
+
+
+.user-add-form .form-control{
+    width: 100%;
+    height: 35px;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid silver;
+    margin:10px 0 10px 0;
+}
+
+
+.user-add-form .btn{
+    margin-left: 40%;
+    transform: translateX(-50);
+    width: 100px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background: #40aae3;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 4px;
+    transition: .3s;
+}
+
+.user-add-form .btn:hover{
+    opacity: .7;
+
+}
